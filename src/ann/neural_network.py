@@ -8,9 +8,12 @@ class NeuralNetwork:
     Main model class that orchestrates the neural network training and inference.
     """
     
-    def __init__(self):
+    def __init__(self, cli_args):
         """
         Initialize the neural network.
+
+        Args:
+            cli_args: Command-line arguments for configuring the network
         """
         pass
     
@@ -22,7 +25,7 @@ class NeuralNetwork:
             X: Input data
             
         Returns:
-            Output predictions
+            Output logits
         """
         pass
     
